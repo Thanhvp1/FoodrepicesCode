@@ -1,0 +1,370 @@
+/* PC */
+@media (min-width: 64em) {
+   
+}
+
+
+/* nhỏ hơn 1300px*/
+@media (max-width: 1360px) and (min-width: 1024px) {
+     /*Header*/    
+
+     /*About*/
+     .about .about_main .image img {
+        width: 600px;
+        position: relative;
+        top: 60px;
+     }
+
+    /*Recipes*/
+    .menu .menu_box {
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-items: center;
+    }
+
+    /*Feedback*/
+    .feedback .feedback_main {
+        justify-content: center;
+    }
+
+    .feedback .feedback_main form {
+        grid-template-columns: 1fr;
+    }
+    /*Footer*/
+}
+
+
+/* Tablet & Mobile */ 
+@media (max-width: 63.9375em /*1023px*/) {
+   
+    /*Header*/
+
+     /*About*/
+
+    /*Recipes*/
+
+    /*Feedback*/
+
+    /*Footer*/
+
+}
+
+
+/* Tablet */
+@media (max-width: 63.9375em /*1023px*/) and (min-width: 46.25em /*740px*/)  {
+    /*Header*/
+
+    
+    section {
+        background: url(./image/bg2.jpg) top center/cover no-repeat;
+    }
+    
+    section nav {
+        justify-content: left;
+    }
+
+    section nav .logo-text{
+        display: none;
+    }
+
+    section .main {
+        flex-direction: column;
+        justify-content: center;
+        background: url(./image/bg1.jpg) top center/cover no-repeat;
+    }
+
+    section .main .men_text {
+        max-width: 90%;
+    }
+
+    section .main .men_text h1 {
+        text-align: center;
+    }
+
+    section .main .men_text h1 span {
+        margin-left: 0px;
+    }
+    section .main .men_text p {
+        text-align: center;
+
+    }
+
+    section .main .men_text .end_text {
+        text-align: center;
+    }
+
+    section .main .main_image img {
+        width: 550px;
+    }
+
+    section .main_btn {
+        display: none;
+    }
+     /*About*/
+     .about {
+        height: auto;
+        
+     }
+
+     .about .about_main {
+        
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    
+    .about .about_main .image img {
+        max-width: 400px;
+
+    }
+
+    .about .about_main .about_text {
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+
+    /*Recipes*/
+    .menu .menu_box {
+        grid-template-columns: 1fr 1fr ;
+        justify-items: center;
+    }
+
+    /*Feedback*/
+
+    .feedback .feedback_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feedback .feedback_main .feedback_image img {
+        width: 400px;
+
+    }
+
+    .feedback .feedback_main form {
+        grid-template-columns: 1fr;
+    }
+
+    /*Footer*/
+
+
+    /*Modal*/
+    .modal .menu_card {
+        display: none;
+    }
+
+    .modal .menu_content {
+        margin: auto;
+    }
+}
+   
+
+
+/* Mobile */
+@media (max-width: 46.1875em/*739px*/) {
+    /*Header*/
+     
+    section {
+        background: url(./image/bg2.jpg) top center/cover no-repeat;
+    }
+    
+    section nav {
+        justify-content: left;
+        
+    }
+
+    section nav ul {
+        display: none;
+    }
+
+    section nav ul li {
+        display: block;
+        
+    }
+
+    section nav .icon {
+        padding-right: 20px;
+    }
+
+    section nav .logo-text{
+        display: none;
+    }
+
+    /*Mobile-btn*/
+
+    section nav .mobile-menu-btn {
+        display: block;
+        padding-left: 20px;
+        transform: scale(1.5);
+    }
+
+    section .main {
+        justify-content: center;
+        background: url(./image/bg1.jpg) top center/cover no-repeat;
+        flex-direction: column;
+    }
+
+    section .main .men_text {
+        max-width: 90%;
+    }
+
+    section .main .men_text h1 {
+        font-size: 25px;
+        line-height:35px;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+    }
+
+    section .main .men_text h1 span {
+        margin-left: 0px;
+        font-size: 30px;
+        
+    }
+    section .main .men_text p {
+        left:0px;
+        right: 0px;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    section .main .men_text .end_text {
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        bottom: 30px;
+    }
+
+    section .main .main_image img {
+        width: 300px;
+    }
+
+    section .main_btn {
+        display: none;
+    }
+    /*About*/
+    .about {
+        height: auto;
+    }
+    .about .about_main {
+        flex-direction: column-reverse;
+    }
+
+    .about .about_main .image {
+        max-width: 100%;
+    }
+
+    .about .about_main .image img {
+        width:350px ;
+        top:0px
+
+    }
+
+
+    .about .about_main .about_text h1  {
+        text-align: center;
+        bottom: 10px;
+
+    }
+
+    .about .about_main .about_text h1 span {
+        margin: auto;
+        font-size: 30px;
+    }
+    
+    .about .about_main .about_text p {
+        max-width: 650px;
+        text-align: justify;
+        margin: 0px 15px;
+        line-height: 22px;
+        padding-bottom: 0px;
+        
+    }
+
+    .about .about_btn {
+        display: none;
+    }
+    /*Menu*/
+    .menu {
+        padding:0px;
+    }
+    
+    .menu h1 {
+        font-size: 30px;
+    }
+
+    
+    .menu h1 span {
+        margin: 0px;
+    }
+
+    .menu .menu_box {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+
+    /*Feedback*/
+    .feedback h1 {
+        font-size: 30px;
+    }
+
+    .feedback h1 span {
+        margin: 0px;
+    }
+
+    .feedback h1 span::after {
+        display: none;
+    }
+    
+    .feedback .feedback_main {
+        flex-direction: column-reverse;
+    }
+
+    .feedback .feedback_main .feedback_image img { 
+        width: 300px;
+    }
+
+    .feedback .feedback_main form {
+        grid-template-columns: 1fr;
+    }
+    /*Footer*/
+    footer {
+        padding: 10px 10px;
+    }
+
+    footer .footer_main {
+        grid-template-columns: 1fr;
+    }
+
+
+    /*Modal*/
+    .modal .menu_card {
+        display: none;
+    }
+
+    .modal .menu_content {
+        margin: auto;
+        flex-direction: column;
+        min-width: 300px;
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .modal .menu_content .menu_content_ingredients {
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .modal .menu_content .menu_content_recipe {
+        width: 100%;
+        border-top-right-radius: 0px ;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+
+
+
